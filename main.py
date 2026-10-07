@@ -24,7 +24,7 @@ def kup_ulepszenie(klucz):
     else:
       dane.klik_sila += ul["korzysc"]
 
-    ul["cena"] = ul["cena"] * 2
+    ul["cena"] = ul["cena"] * 1.1
     ul["korzysc"] = ul["korzysc"] * 1.1
 
     aktualizuj_interfejs()
